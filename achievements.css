@@ -1,0 +1,134 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1.5fr 1.5fr;
+    grid-template-rows: 1.5fr 1.5fr;
+    gap: 20px 20px;
+    grid-template-areas: "Coding BSL" "CaFoscari skills";
+    animation: fadeIn ease 7s;
+    -webkit-animation: fadeIn ease 7s;
+    -moz-animation: fadeIn ease 7s;
+    -o-animation: fadeIn ease 7s;
+    -ms-animation: fadeIn ease 7s;
+    background-color: #F9ECBA;
+}
+
+
+@keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+
+  
+  .Coding { 
+    grid-area: Coding;
+    font-family: 'Open Sans Condensed', sans-serif; 
+    background-color: #FFC2D1;
+    text-indent: 10px;
+    
+}
+  
+  .skills { 
+    grid-area: skills; 
+    font-family: 'Open Sans Condensed', sans-serif;
+    background-color: #C2ECFF;
+}
+  
+  
+  .CaFoscari {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px 20px;
+    grid-template-areas: "foscari" "license";
+    grid-area: CaFoscari;
+    font-family: 'Open Sans Condensed', sans-serif;
+  }
+  
+  .foscari { 
+      grid-area: foscari;
+      background-color: #F4F6AD;
+     }
+  
+  .license { 
+      grid-area: license; 
+      background-color: #EBBAF9;
+
+}
+
+
+  .certificate {
+      max-width: auto;
+      max-height: 150px;
+      transition: width 2s ease;
+      border: 2px solid red;
+  }
+
+  .certificate:hover {
+      max-width:auto;
+      max-height: 300px;
+  }
+
+  .publication {
+      text-decoration: none ;
+      color: red;
+  }
+
+  .BSL {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px 20px;
+    grid-template-areas: "lang" "sign";
+    grid-area: BSL;
+    font-family: 'Open Sans Condensed', sans-serif;
+  }
+
+  .lang {
+      grid-area: lang;
+      background-color: #EBBAF9;
+  }
+
+  .sign { 
+    grid-area: sign;
+    background-color: #BCECB6;
+}
