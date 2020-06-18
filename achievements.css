@@ -4,11 +4,11 @@
     grid-template-rows: 1.5fr 1.5fr;
     gap: 20px 20px;
     grid-template-areas: "Coding BSL" "CaFoscari skills";
-    animation: fadeIn ease 7s;
-    -webkit-animation: fadeIn ease 7s;
-    -moz-animation: fadeIn ease 7s;
-    -o-animation: fadeIn ease 7s;
-    -ms-animation: fadeIn ease 7s;
+    animation: fadeIn ease 4s;
+    -webkit-animation: fadeIn ease 4s;
+    -moz-animation: fadeIn ease 4s;
+    -o-animation: fadeIn ease 4s;
+    -ms-animation: fadeIn ease 4s;
     background-color: #F9ECBA;
 }
 

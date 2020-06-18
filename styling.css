@@ -44,7 +44,8 @@ p {
 .info {
     text-align: center;
     padding-top: 30px;
-    background: url(backgroundfaded.jpg) no-repeat center center/cover; 
+    background: url(backgroundfaded.jpg) no-repeat center center/cover;
+   
 
 }
 
@@ -56,6 +57,7 @@ p {
 
 .intro {
     background-color: #F9ECBA;
+    max-width: 1400px;
 }
 
 
