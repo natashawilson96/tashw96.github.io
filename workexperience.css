@@ -1,0 +1,112 @@
+.experience {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center
+}
+
+
+.col-3 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 23%;
+    border-radius: 10%;
+    margin: 10px;
+    
+  }
+
+  .CEC {
+      background-color: #FF8CA8;
+      text-align: center;
+      display: inline-block;
+      
+
+  }
+
+  .Ecotricity {
+      background-color: #8CDBFF;
+      text-align: center;
+      display: inline-block;
+    
+  }
+
+  .BritishInstitutes {
+      background-color: #93E888;
+      text-align: center; 
+      display: inline-block;
+  }
+
+  .waitress {
+      background-color: #F2F757;
+      text-align: center;
+      display: inline-block;
+
+  }
+
+h3 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+}
+
+ul {
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-decoration: none;
+}
+
+
+
+.col-3 {
+    animation: fadeIn ease 7s;
+    -webkit-animation: fadeIn ease 7s;
+    -moz-animation: fadeIn ease 7s;
+    -o-animation: fadeIn ease 7s;
+    -ms-animation: fadeIn ease 7s;
+}
+
+
+@keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
