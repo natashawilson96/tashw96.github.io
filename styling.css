@@ -5,7 +5,7 @@ font-family: 'Open Sans Condensed', sans-serif; */
 
 
 
-.titlecontainer{
+.title-container{
     display:flex;
     justify-content:space-between;
     background-color:  #ffc83b;
@@ -44,7 +44,7 @@ p {
 .info {
     text-align: center;
     padding-top: 30px;
-    background: url(backgroundfaded.jpg) no-repeat center center/cover;
+    background: url("media/backgroundfaded.jpg") no-repeat center center/cover;
     max-width: 100%;
     position: relative;
    

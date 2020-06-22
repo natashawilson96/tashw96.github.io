@@ -1,0 +1,98 @@
+/* Default styles; mobile-first */
+* {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+h1 {
+    font-family: 'PT Sans', sans-serif;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-top: 0;
+}
+
+p {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.title-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffc83b;
+    margin: auto auto 0.625rem;
+    padding: 1rem;
+}
+
+.title {
+    font-family: 'PT Sans', sans-serif;
+    margin: 0 auto;
+    font-size: 2rem;
+}
+
+.section-1 {
+    height: 12rem;
+    background: url("../media/backgroundfaded.jpg") no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.me {
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+}
+
+.section-2 {
+    text-align: center;
+    padding: 1rem 2rem;
+    margin-top: 0.625rem;
+    background-color: #F9ECBA;
+}
+
+footer {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.copyright, .last-updated {
+    background-color: #ffc83b;
+    color: white;
+    padding: 0.25rem;
+}
+
+/* Responsive styles */
+
+@media screen and (min-width: 500px) {
+    .title {
+        font-size: 1.5rem;
+    }
+
+    .section-2 {
+        padding: 1rem 5rem;
+    }
+
+    footer {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .section-1 {
+        height: 15rem;
+    }
+
+    .me {
+        width: 13rem;
+        height: 13rem;
+    }
+
+    .section-2 {
+        padding: 1rem 10rem;
+    }
+}
+
