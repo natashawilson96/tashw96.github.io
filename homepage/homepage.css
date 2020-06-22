@@ -1,0 +1,60 @@
+* {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+h1 {
+    font-family: 'PT Sans', sans-serif;
+}
+
+h2 {
+    font-size: 6rem;
+    margin-top: 0;
+}
+
+p {
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.title-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffc83b;
+    margin: auto auto 0.625rem;
+    padding: 1rem;
+}
+
+.title {
+    font-family: 'PT Sans', sans-serif;
+    margin: 0 auto;
+    font-size: 5rem;
+}
+
+.section-1 {
+    height: 30rem;
+    background: url("../media/backgroundfaded.jpg") no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.me {
+    max-height: 25rem;
+    max-width: 25rem;
+    border-radius: 50%;
+}
+
+.section-2 {
+    text-align: center;
+    padding-left: 3.125rem;
+    padding-right: 3.125rem;
+    margin-top: 0.625rem;
+    background-color: #F9ECBA;
+}
+
+footer {
+    text-align: center;
+    background-color: #ffc83b;
+    margin-top: 1rem;
+}
